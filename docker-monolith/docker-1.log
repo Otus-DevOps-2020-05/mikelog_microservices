@@ -1,0 +1,50 @@
+REPOSITORY                             TAG                 IMAGE ID            CREATED             SIZE
+mikelog/ubuntu-tmp-file                latest              be041d3ddaaf        3 minutes ago       64.2MB
+burrow_burrow                          latest              c3ed00172ccf        3 days ago          29.4MB
+<none>                                 <none>              ea0c2d507dd9        3 days ago          800MB
+db_db                                  latest              ee388d3cd336        13 days ago         407MB
+db_flyway                              latest              00038179e534        13 days ago         468MB
+<none>                                 <none>              5d8f9822fdb4        2 weeks ago         468MB
+mariadb                                10.5.4              8075b7694a2d        3 weeks ago         407MB
+ubuntu                                 18.04               2eb2d388e1a2        3 weeks ago         64.2MB
+deploy                                 latest              6e67a7410e56        5 weeks ago         51.8MB
+latest                                 latest              6e67a7410e56        5 weeks ago         51.8MB
+template_reveal-md_reveal              latest              0e688392e218        6 weeks ago         512MB
+custom-sonar-scaner                    latest              288b33658629        6 weeks ago         870MB
+custom-sonar-scanner                   latest              da631276da7c        6 weeks ago         407MB
+scanner-cli                            latest              a8442abaf60e        6 weeks ago         147MB
+node                                   lts-slim            1a484809c0c6        6 weeks ago         142MB
+alpine                                 edge                3c791e92a856        7 weeks ago         5.57MB
+obsidiandynamics/kafdrop               latest              5b5ea1807970        8 weeks ago         608MB
+helm-docker                            latest              e8abcb4242d7        8 weeks ago         115MB
+<none>                                 <none>              1a26e107b37d        8 weeks ago         29.2MB
+mhart/alpine-node                      12                  84ec86d89f58        2 months ago        80.9MB
+atlassian/confluence-server            6.2.0-alpine        320b98aabd82        2 months ago        942MB
+atlassian/confluence-server            6.13.7              f0677a3382a8        2 months ago        971MB
+atlassian/confluence-server            7.0.4               b863c883991e        2 months ago        1.02GB
+atlassian/jira-software                7.13.13             89dce7179993        2 months ago        716MB
+postgres                               9.5-alpine          1c03753056d8        2 months ago        35.2MB
+atlassian/confluence-server            latest              edc3bbd6d96e        2 months ago        1.18GB
+docker                                 latest              0bfe00e7bcd5        2 months ago        211MB
+alpine                                 latest              a24bb4013296        2 months ago        5.57MB
+golang                                 1.14.3-alpine       459ae5e869df        3 months ago        370MB
+sonarsource/sonar-scanner-cli          4.3                 c8222f1047aa        3 months ago        407MB
+sonarsource/sonar-scanner-cli          latest              c8222f1047aa        3 months ago        407MB
+wurstmeister/kafka                     latest              f1905dce9659        3 months ago        431MB
+alpine                                 3.11                f70734b6a266        3 months ago        5.61MB
+zabbix/zabbix-appliance                alpine-4.4.6        bfa63dd6ed7b        5 months ago        383MB
+zabbix/zabbix-appliance                latest              663a9b177b54        5 months ago        383MB
+metalmatze/alertmanager-bot            0.4.2               df4e6d163093        7 months ago        21.8MB
+hello-world                            latest              bf756fb1ae65        7 months ago        13.3kB
+landoop/kafka-topics-ui                latest              cecb5defe47e        14 months ago       31.6MB
+landoop/kafka-connect-ui               latest              baab89a3279a        15 months ago       30.6MB
+wurstmeister/zookeeper                 latest              3f43f72cb283        19 months ago       510MB
+boxfuse/flyway                         5.2.4               ebfb4a59f7c5        20 months ago       468MB
+node                                   10.13-alpine        93f2dcbcddfe        20 months ago       70.3MB
+willwill/wait-for-it                   latest              86fa449bc1c3        2 years ago         100MB
+
+
+
+IMAGE и Container   можно сравнить как:
+IMAGE - шаблон виртуальной машины( образ системы, анпример как тот, что мы создавали пакером), то объект достпный для чтения из публичного или локального репозитория
+CONTAINER - запущенный инстанс из IMAGE, который может изменяться

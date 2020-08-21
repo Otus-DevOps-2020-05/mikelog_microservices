@@ -1,0 +1,11 @@
+*.tmp
+*.tfstate
+*.tfstate.*.backup
+*.tfstate.backup
+*.tfvars
+.terraform/
+*.retry
+jdauphant.nginx
+vagrant_env
+variables.json
+yc_yandex.pem
