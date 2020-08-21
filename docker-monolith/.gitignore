@@ -9,3 +9,4 @@ jdauphant.nginx
 vagrant_env
 variables.json
 yc_yandex.pem
+*.bak
