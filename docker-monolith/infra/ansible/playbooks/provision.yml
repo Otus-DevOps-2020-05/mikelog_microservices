@@ -1,0 +1,10 @@
+---
+- hosts: all
+  become: true
+  tasks:
+    - name: Run docker APP
+      docker_container:
+        name: reddit-app
+        image: mikelog/otus-reddit:1.0
+        ports: [ "9292:9292" ]
+        state: started

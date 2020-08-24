@@ -1,0 +1,12 @@
+{
+    "folder_id": "folder_id",
+    "source_image_family": "ubuntu-1604-lts",
+    "platform_id": "standard-v1",
+    "disk_size_gb": "16",
+    "disk_type": "network-hdd",
+    "image_description": "My first own image via PACKER",
+    "subnet_id": "default",
+    "ssh_username": "ubuntu",
+    "zone": "ru-central1-a",
+    "service_account_key_file": "key.json"
+   }

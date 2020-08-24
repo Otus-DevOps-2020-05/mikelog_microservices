@@ -1,0 +1,37 @@
+{
+    "variables": {
+        "folder_id": null,
+        "source_image_family": null,
+        "platform_id": "standard-v1",
+        "disk_size": "10",
+        "disk_type": "network-hdd",
+        "image_description": "My first own image via PACKER",
+        "subnet_id": "default",
+        "ssh_username": "sshuser",
+        "zone": "ru-central1-a",
+        "service_account_key_file": null
+        },
+    "builders": [
+        {
+            "type": "yandex",
+            "service_account_key_file": "{{ user `service_account_key_file` }}",
+            "folder_id": "{{ user `folder_id` }}",
+            "source_image_family": "{{ user `source_image_family` }}",
+            "image_name": "docker-host-{{timestamp}}",
+            "image_family": "docker-host",
+            "zone": "{{ user `zone` }}",
+            "ssh_username": "{{ user `ssh_username` }}",
+            "platform_id": "{{ user `platform_id` }}",
+            "use_ipv4_nat": true,
+            "ssh_pty": "true"
+        }
+    ],
+    "provisioners": [
+        {
+          "type": "ansible",
+          "playbook_file": "../ansible/playbooks/packer-docker-host.yml",
+          "use_proxy": false,
+          "pause_before": "30s"
+        }
+      ]
+}
